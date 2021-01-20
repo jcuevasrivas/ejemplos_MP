@@ -1,0 +1,52 @@
+{
+    "payer":                                        
+    {
+        "first_name": "Jose",
+        "last_name": "Perez",
+        "email": "jose@algo.com"
+    },
+    "external_reference": "90011",                  
+    "transaction_amount": 388,                      
+    "payment_method_id": "visa",
+    "token": "ddb9fe6c26a3930c89b1587a5b9cd5a0",
+    "statement_descriptor": "Prueba.",              
+    "installments": 1,                  
+    "notification_url": "https://www.yourdomain.com/notification",
+    "additional_info":                              
+    {
+        "items": [
+        {
+            "id": "281762",
+            "title": "Algo",
+            "description": "Celular 64 GB",
+            "quantity": 1,
+            "unit_price": "3409.00",
+            "category_id": "electronics"
+        }],
+        "payer":                                    
+        {   
+            "first_name": "Jose",
+            "last_name": "Perez",
+            "phone":   
+            {
+                "area_code": "52",
+                "number": "5555555555"              
+            },
+            "address": {
+                "zip_code": "03100",                
+                "street_name": "Calle",
+                "street_number": "123"              
+            },  
+            "registration_date": "2017-06-07"       
+        },
+        "shipments": 
+        {
+            "receiver_address":
+            {
+                "zip_code": "23450",
+                "street_name": "Calle",
+                "street_number": "112"
+            }
+        }
+    }
+}
