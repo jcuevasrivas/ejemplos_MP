@@ -1,0 +1,38 @@
+{
+	"items": [{
+            "id": "281762",                         
+            "title": "Algo",                        
+            "description": "Celular 64 GB",         
+            "quantity": 1,                          
+            "unit_price": "3409.00",                
+            "picture_url": "https://someimage.jpg",
+            "currency_id": "MXN",
+            "category_id": "electronics"
+        }],
+	"notification_url": "https://yourdomain.com/mercadopago/notification",
+    	"payer":                                    
+        {   
+            "name": "Jose",
+            "surname": "Perez",
+	    "email": "jose@batman.com",
+            "phone":   
+            {
+                "area_code": "52",
+                "number": "5555555555"              
+            },
+            "address": {
+                "zip_code": "03100",                
+                "street_name": "Calle",
+                "street_number": "123"              
+            },
+            "date_created": "2017-06-07"
+        },
+    	"shipments": {
+    		"receiver_address":
+            	{
+               	 "zip_code": "23450",
+               	 "street_name": "Calle",
+               	 "street_number": "112"
+            	}
+    	}
+}
