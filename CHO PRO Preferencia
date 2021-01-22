@@ -10,6 +10,12 @@
             "category_id": "electronics"
         }],
 	"notification_url": "https://yourdomain.com/mercadopago/notification",
+	"back_urls":
+	{
+ 		"success": "https://www.tu-sitio/success",
+  		"failure": "http://www.tu-sitio/failure",
+  		"pending": "http://www.tu-sitio/pending",
+	},	
     	"payer":                                    
         {   
             "name": "Jose",
