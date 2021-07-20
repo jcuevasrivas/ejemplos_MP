@@ -10,7 +10,7 @@
     "transaction_amount": 388,                      
     "payment_method_id": "visa",
     "token": "ddb9fe6c26a3930c89b1587a5b9cd5a0",
-    #################################################"statement_descriptor": "Prueba.", ## Aún no usar##             
+    "statement_descriptor": "Prueba.",         
     "installments": 1,                  
     "notification_url": "https://www.yourdomain.com/notification",
     "additional_info":                              
