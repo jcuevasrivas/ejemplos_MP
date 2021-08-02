@@ -10,6 +10,7 @@
             "category_id": "electronics"
         }],
 	"notification_url": "https://yourdomain.com/mercadopago/notification",
+	"external_reference":"MAB 23521",
 	"back_urls":
 	{
  		"success": "https://www.tu-sitio/success",
